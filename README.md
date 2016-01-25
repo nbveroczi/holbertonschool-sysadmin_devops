@@ -1,2 +1,2 @@
-# system_administration
-2nd Holberton Project
+#holbertonschool-sysadmin_devops
+Sysadmin & Devops ― Bash

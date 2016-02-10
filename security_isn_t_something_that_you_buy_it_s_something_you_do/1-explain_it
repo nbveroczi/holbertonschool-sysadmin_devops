@@ -1,0 +1,5 @@
+1.  You should create a set of RSA keys using ssh-keygen -t rsa -b 4096.  The -b flag makes it harder to crack the key with brute force.  Make sure to securely store the keys and a passphrase.
+
+2. The public key should be copied into the sandbox servers authorized_keys file with the ssh-copy-id command.  It will be used to authenticate the connection between my local computer and the server.  it will decode the encrypted data coming from the local machine.  
+
+3. The private key should be kept private in a password protected location.  This key is used by my local machine that will encrypt data that can only be decoded by the public key.  It will authenticate the identity of the connecting key.  

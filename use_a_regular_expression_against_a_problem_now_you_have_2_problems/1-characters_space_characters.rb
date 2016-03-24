@@ -1,5 +1,2 @@
 #!/usr/bin/ruby
-puts (ARGV[0].scan /     +/).join
-
-
-
+puts (ARGV[0].scan /^[a-zA-Z0-9]* [a-zA-Z]*/).join
